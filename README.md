@@ -115,7 +115,7 @@ let myTurtle = turtle.fromSprite(sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Player))
-myTurtle.setPenColor(1)
+myTurtle.setPenColor(2)
 ```
 
 ## Step 6
