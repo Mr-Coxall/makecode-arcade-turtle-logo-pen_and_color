@@ -26,7 +26,7 @@ let myTurtle = turtle.fromSprite(sprites.create(img`
 ## Introduction @unplugged
 
 In this tutorial you will learn how to lift the pen up and down and change the color of the pen.
-![Hello, World!](https://github.com/Mr-Coxall/makecode-arcade-turtle-logo-pen_and_color/raw/main/assets/pen_up_and_down_screenshot.png)
+![Hello, World!](https://github.com/Mr-Coxall/makecode-arcade-turtle-logo-pen_and_color/raw/main/assets/pen_and_color_screenshot.png)
 
 ## Step 1
 Sometimes when you move the **Turtle** you might not want to leave a trail. Like this:
