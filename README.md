@@ -157,3 +157,27 @@ myTurtle.moveDirection(TurtleDirection.Forward, 25)
 Done.
 
 You now know how to make the **Turtle** lift it's pen up and down and change the pen color.
+
+```ghost
+let myTurtle = turtle.fromSprite(sprites.create(img`
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . e e . . . . . . . . 
+    . . . . . e e e e . . 7 7 7 . . 
+    . . . . e e e d e e . 7 7 f 7 . 
+    . . . e e e e e d e e 7 7 7 7 . 
+    . . . e e d e e e e e 7 7 7 . . 
+    . . 7 e e e e e e e e . . . . . 
+    . 7 . 7 7 7 7 7 7 7 7 . . . . . 
+    . . . 7 7 7 7 7 7 7 7 . . . . . 
+    . . 7 7 7 . . . . 7 7 7 . . . . 
+    . . 7 7 7 . . . . . 7 7 . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    `, SpriteKind.Player))
+myTurtle.moveDirection(TurtleDirection.Forward, 25)
+myTurtle.turnDirectionByDegrees(TurtleTurnDirection.Right, 90)
+myTurtle.say("Hello, World!")
+```
