@@ -21,16 +21,11 @@ let myTurtle = turtle.fromSprite(sprites.create(img`
     `, SpriteKind.Player))
 ```
 
-# Turtle Logo - Moving and Turning
-
-## Introduction @unplugged
-
-In this tutorial you will create your first Turtle Logo program using Makecode Arcade. You will get a turtle showing up in your game console and have it say, "Hello, World!".
-
-![Hello, World!](https://github.com/Mr-Coxall/makecode-arcade-turtle-logo-hello_world/raw/main/assets/hello_world_screenshot.png)
+# Turtle Logo - Pen and Colour
 
 ## Step 1
-Once you can make the **Turtle** show up and talk, the next step is to make it move.
+Sometimes when you move the **Turtle** you might not want to leave a trail. Like this:
+![Turtle move forward](https://github.com/Mr-Coxall/makecode-arcade-turtle-logo-pen_and_color/raw/main/assets/pen_up_and_down.gif)
 
 ## Step 2
 Into the provided code below, drag out the ⇢``myTurtle move forward 25 steps``⇠ block and then see what happens to your **Turtle**.
