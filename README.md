@@ -25,7 +25,7 @@ let myTurtle = turtle.fromSprite(sprites.create(img`
 
 ## Step 1
 Sometimes when you move the **Turtle** you might not want to leave a trail. Like this:
-![pen up and down](https://github.com/Mr-Coxall/makecode-arcade-turtle-logo-pen_and_color/raw/main/assets/pen_up_and_down.gif)
+![pen up and down](https://github.com/Mr-Coxall/makecode-arcade-turtle-logo-pen_and_color/raw/main/assets/pen_up_and_down.gif =400x)
 
 ## Step 2
 Into the provided code below, drag out the ⇢``myTurtle move forward 25 steps``⇠ block and then see what happens to your **Turtle**.
